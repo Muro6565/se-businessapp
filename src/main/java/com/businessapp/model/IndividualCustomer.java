@@ -9,6 +9,7 @@ public class IndividualCustomer extends Customer {
 
 	@Property( label="Vorname" )
 	private String firstName;
+     
 
 
 	/*
@@ -21,6 +22,8 @@ public class IndividualCustomer extends Customer {
 	public IndividualCustomer( String id, String created, String firstName, String lastName ) {
 		super( id, created, lastName );
 		this.firstName = firstName;
+               
+                
 	}
 
 	public String getFirstName() {
